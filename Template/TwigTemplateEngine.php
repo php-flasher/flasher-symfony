@@ -1,11 +1,16 @@
 <?php
 
+/*
+ * This file is part of the PHPFlasher package.
+ * (c) Younes KHOUBZA <younes.khoubza@gmail.com>
+ */
+
 namespace Flasher\Symfony\Template;
 
-use Flasher\Prime\Template\EngineInterface;
+use Flasher\Prime\Template\TemplateEngineInterface;
 use Twig\Environment;
 
-final class TwigEngine implements EngineInterface
+final class TwigTemplateEngine implements TemplateEngineInterface
 {
     /**
      * @var Environment
